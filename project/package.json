@@ -8,9 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+     "eject": "react-scripts eject"
   },
-  "dependencies": {
+  "homepage": ".",
+    "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
     "chart.js": "^4.5.1",
     "lucide-react": "^0.344.0",
